@@ -16,9 +16,9 @@ ntw2117}
 
 ## Problem 1
 
-(a) $$\hat{t_0.5} = \text{min}\{t_j: \hat{S}(t_j) < 0.5\}$$
+(a) $$\hat{t_{0.5}} = \text{min}\{t_j: \hat{S}(t_j) < 0.5\}$$
 
-  1: 
+1: identify $\hat{t_j}$ such that $\hat{S}(t_j) < 0.5$
 
 ```{r echo = FALSE}
 med <- tibble(t_j = c("t_6", "t_5", "t_4"), 
@@ -26,9 +26,17 @@ med <- tibble(t_j = c("t_6", "t_5", "t_4"),
 
 kable(med)
 ```
+  
+2: identify minimum $\hat{t_j}:\hat{t_4} = 5$  
 
-  2: identify smallest $t_j$
-$$t_4: \hat{S}(t_4) = 0.4$$
+$$
+\begin{aligned}
+95 \% \text{CI} &= \text{all } t_j \text{CI} \ni 0.5\\
+&= t_1, t_2, t_3, t_4, t_5 \\
+&= [0.4, 1.2), [1.2, 4.3), [4.3, 5.0), [5.0, 5.1), [5.1, 7.1) \\
+&= [0.4, 7.1)
+\end{aligned}
+$$
  
-
+We estimate that 50% of patients will survive for more than 5 years. Furthermore, we are 95% confident that the true median survival time is between 0.4 and 7.1 years. 
 
