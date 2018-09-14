@@ -1,0 +1,15 @@
+---
+title: "P8110 Homework Two"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+\begin{center}
+\textbf{Nick Williams \\
+ntw2117}
+\end{center}
+
+
