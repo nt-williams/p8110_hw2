@@ -21,10 +21,10 @@ ntw2117}
 1: identify $\hat{t_j}$ such that $\hat{S}(t_j) < 0.5$
 
 ```{r echo = FALSE}
-med <- tibble(t_j = c("t_6", "t_5", "t_4"), 
-                 surv_prob = c(0.0, 0.2667, 0.4))
+med <- tibble("$\\hat{t_j}$" = c("$t_6$", "$t_5$", "$t_4$"), 
+              "$\\hat{S}(t_j)$" = c(0.0, 0.2667, 0.4))
 
-kable(med)
+kable(med, escape = FALSE)
 ```
   
 2: identify minimum $\hat{t_j}:\hat{t_4} = 5$  
