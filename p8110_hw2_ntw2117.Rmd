@@ -5,11 +5,30 @@ output: pdf_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(knitr)
 ```
 
 \begin{center}
 \textbf{Nick Williams \\
 ntw2117}
 \end{center}
+
+## Problem 1
+
+(a) $$\hat{t_0.5} = \text{min}\{t_j: \hat{S}(t_j) < 0.5\}$$
+
+  1: 
+
+```{r echo = FALSE}
+med <- tibble(t_j = c("t_6", "t_5", "t_4"), 
+                 surv_prob = c(0.0, 0.2667, 0.4))
+
+kable(med)
+```
+
+  2: identify smallest $t_j$
+$$t_4: \hat{S}(t_4) = 0.4$$
+ 
 
 
