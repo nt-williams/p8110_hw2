@@ -40,3 +40,14 @@ $$
  
 We estimate that 50% of patients will survive for more than 5 years. Furthermore, we are 95% confident that the true median survival time is between 0.4 and 7.1 years. 
 
+(b)  
+$$
+\begin{aligned}
+\hat{\mu}_{t_j} &= \sum_{j = 1}^J \hat{S}(t_{j - 1})(t_j - t_{j-1}) \\
+&= 1(0.4) + 0.9(1.2 - 0.4) + 0.8(4.3 - 1.2) + 0.6667(5.0 - 4.3) + 0.4(5.1 - 5.0) + 0.2667(7.1 - 5.1) \\
+&= 0.4 + 0.72 + 2.48 + 0.4667 + 0.04 + 0.5334 \\
+&= 4.64
+\end{aligned}
+$$
+
+The estimated average suvival time is 4.64 years. 
