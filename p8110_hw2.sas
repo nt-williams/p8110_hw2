@@ -6,7 +6,7 @@ Homework 2
 *************************;
 
 data hw2; 
-	input time status; 
+	input year status; 
 	datalines; 
 	0.4 1
 	1.2 1
@@ -24,8 +24,16 @@ run;
 proc lifetest data = hw2 method = KM
                 conftype = loglog outsurv = hw2_conf
 			    stderr plots = survival(cl); 
-	time time*status(0); 
+	time year*status(0); 
 run; 
 
 proc print data = hw2_conf; 
 run; 
+
+
+
+
+
+
+
+
