@@ -52,10 +52,19 @@ $$
 
 The estimated average suvival time is 4.64 years. 
 
-(c) $\hat{\mu_1}$ will be bigger. If $\hat{\mu_2}$ is the mean survival time where all the listed points are events, then 2 more events are occuring before $\hat{\mu_1} = (4.64)$ and thus the average surivival time will decrease. 
+(c) $\hat{\mu_1}$ will be bigger. If $\hat{\mu_2}$ is the mean survival time where all the listed points are events, then 2 more events are occuring before $\hat{\mu_1} = (4.64)$ and thus the average surivival time will decrease.
 
+\newpage
 
+## Problem 2
 
+\vspace{5cm}
+
+(a)    
+
+\vspace{7cm}
+
+(b)
 
 
 
